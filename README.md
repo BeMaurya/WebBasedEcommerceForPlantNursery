@@ -1,13 +1,8 @@
-# spring-boot-react-ecommerce-app
+# WebBasedEcommerceForPlantNursery
 eCommerce application based on the microservices architecture built using Spring Boot and ReactJS.
 
 **DEMO**
-- Deployed to Heroku Cloud:
-
-  https://shoppers-ecom-app.herokuapp.com
-
-  **Note:** It is running on a free dyno, so the services go to sleep if not in use.
-       For the first time, it may take some time to respond.
+- Waiting for finalize
  
 **FEATURES**
 
@@ -50,14 +45,10 @@ eCommerce application based on the microservices architecture built using Spring
 
 **Steps for executing the application using docker-compose:**
 
-Installation Video: https://youtu.be/nPKYbdKPd0E
-
 1. Clone/Download the repository.
 
-2. Set the environmental variables which will be impacted on docker-compose.yml.
-   
-    1. Rename the file ".env-sample" to ".env".     
-    2. (Optional Step) You need to create a Stripe account and Google OAuth credentials.
+2. Set the environmental variables which will be impacted on docker-compose.yml.    
+    1. (Optional Step) You need to create a Stripe account and Google OAuth credentials.
        The application works even if you don't create this account, only the payment and OAuth functionality will not work.
        These accounts doesn't charge you anything and are absolutely free.<br/><br/>
 
