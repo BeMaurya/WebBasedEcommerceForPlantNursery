@@ -1,0 +1,18 @@
+brand|Website/brands/b1.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091847/GreenGarden/tYPES/t1_b_feeiml.png|Fruits Seeds
+brand|Website/brands/b2.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091876/GreenGarden/tYPES/t2_b_y3yptt.png|Rose
+brand|Website/brands/b3.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091858/GreenGarden/tYPES/t3_b_jjrekb.png|Nike
+brand|Website/brands/b4.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091858/GreenGarden/tYPES/t4_c_1_h0vwhh.png|Mast & Harbour
+brand|Website/brands/b5.jpg|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091866/GreenGarden/tYPES/T5_C_1_suam98.png|Roadster
+brand|Website/brands/b6.png|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105969/cxgfyhyqyznzdzh5sbks.png|Invictus
+category|Website/categories/cat5.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091858/GreenGarden/tYPES/t4_c_1_h0vwhh.png|Rose|Flowering Plants|Men
+category|Website/categories/cat4.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091866/GreenGarden/tYPES/T5_C_1_suam98.png|Dresses|Women
+category|Website/categories/cat3.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655091858/GreenGarden/tYPES/t3_b_jjrekb.png||Kurtas|Women
+carousel|Website/carousel/c1.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655088371/GreenGarden/Carousel/c1_q8txgd.png
+carousel|Website/carousel/c4.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655088381/GreenGarden/Carousel/C4_jklcdf.png
+carousel|Website/carousel/c2.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655088368/GreenGarden/Carousel/C2_pssnk9.png
+carousel|Website/carousel/c3.png|https://res.cloudinary.com/dyosvphm0/image/upload/v1655088361/GreenGarden/Carousel/C3_u6nlsu.png
+carousel|Website/carousel/men-circular-icon.jpg|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105986/s6hkposzszbldqrb1rzn.jpg|Men
+carousel|Website/carousel/women-circular-icon.jpg|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105986/nbdn4usqzbklceqquf4j.jpg|Women
+carousel|Website/carousel/kids-circular-icon.jpg|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105987/yafkspofakzpyxywuuyu.jpg|Boys,Girls
+carousel|Website/carousel/home-circular-icon.jpg|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105988/koa6wiqk3dh41wzofzns.jpg|Home & Living
+carousel|Website/carousel/essentials-circular-icon.jpg|https://res.cloudinary.com/drzudfgzl/image/upload/v1596105989/vjrturanxn2gkpj1d3nt.jp2|Essentials
