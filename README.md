@@ -34,7 +34,6 @@ WebBasedEcommerceForPlantNursery/
 > ⏳ *Waiting for finalization*
 
 ## ✨ Features
-
 - 🔐 Google OAuth 2.0 for quick login
 - 👤 Username / Password authentication
 - 🔍 Smart search with real-time suggestions
@@ -49,59 +48,46 @@ WebBasedEcommerceForPlantNursery/
 - 📱 Fully responsive across all devices
 
 ## 🧰 Tech Stack
-
 ### 🖥 Frontend
 - ⚛️ ReactJS
 - 🎨 Material-UI
 - 🧩 Semantic-UI
 - 🧠 Redux
 - 🌐 Axios
-
 ### 🔧 Backend
 - ☕ Spring Boot 2.0
 - 🌱 Spring REST Controller
 - 🗃️ Spring Data JPA
-
 ### 🗄 Database & Caching
 - 🐬 MySQL
 - ⚡ Redis
-
 ### ☁️ Cloud & Services
 - ☁️ Cloudinary (Image CDN)
 - 🔐 Google OAuth 2.0
 - 💳 Stripe Payment Gateway
 - 🚀 Heroku Cloud Platform
-
 ### 🐳 DevOps
 - 🐳 Docker
 - 🧩 Docker Compose
-
+  
 ## 🧱 Microservices Architecture
-
 ### 🔹 Services Overview
-
 - **🖥 React-UI Service**  
   Frontend client that renders UI and communicates with backend services via REST APIs.
-
 - **📦 Common Data Service**  
   Manages products, categories, filters, and order-related data.
-
 - **🔐 Authentication Service**  
   Handles user registration, login, OAuth authentication, and token management.
-
 - **💳 Payment Service**  
   Processes payment requests and interacts with the Stripe API.
-
 - **🔍 Search Suggestion Service**  
   Provides prefix-based search suggestions using a HashMap built from database data.
-
+  
 ## 🧠 Architecture Overview
 
 The application follows a **distributed microservices architecture**, ensuring scalability, fault isolation, and independent deployments.
 
----
-
-## 📊 Architecture Diagram (Logical Flow)
+### 📊 Architecture Diagram (Logical Flow)
 
 ```text
 [ Browser ]
@@ -122,79 +108,65 @@ Svc     Data     Svc       Svc
           Redis
 ```
 
-2️⃣ Configure Environment Variables (Optional)
+## ⚙️ Running the Application (Docker Compose)
+1️⃣ Clone the Repository
+```powershell
+git clone https://github.com/BeMaurya/WebBasedEcommerceForPlantNursery.git
+cd WebBasedEcommerceForPlantNursery
+```
 
+2️⃣ Configure Environment Variables (Optional)  
 ⚠️ The app runs without these, but Payment & OAuth will be disabled.
-
+```env
 REACT_APP_STRIPE_PUBLISH_KEY=<Your Stripe Publishable Key>
 REACT_APP_GOOGLE_AUTH_CLIENT_ID=<Your Google OAuth Client ID>
-
-
+```
 🔗 Create accounts:
-
-Stripe: https://dashboard.stripe.com/register
-
-Google OAuth: https://console.developers.google.com
+- Stripe: https://dashboard.stripe.com/register
+- Google OAuth: https://console.developers.google.com
 
 3️⃣ Build & Start All Services
+```bash
 ./start-all.sh
-
-
+```
 This will:
-
-Build all microservices
-
-Create Docker network
-
-Start containers based on docker-compose.yml
+- Build all microservices
+- Create Docker network
+- Start containers based on docker-compose.yml
 
 4️⃣ Stop Services
+```bash
 ./stop-all.sh
-
-
+```
 Use this when making code changes.
-
+```text
 💳 Payment Service Test Details
 Card Number: 4242 4242 4242 4242
 Expiry Date: Any future date
 CVV: Any 3-digit number
+```
 
-🚀 Deployment on Heroku
+🚀 Deployment on Heroku  
+1. Create heroku.yml (Docker-based deployment)
+2. Add MySQL from Heroku Marketplace
+   > 💡 Requires credit/debit card (free tier available)
+3. Configure database environment variables
+4. Set container stack:
+   ```bash
+   heroku stack:set container -a <application-name>
+   ```
+5. Deploy individual microservices
 
-Create heroku.yml (Docker-based deployment)
-
-Add MySQL from Heroku Marketplace
-
-💡 Requires credit/debit card (free tier available)
-
-Configure database environment variables
-
-Set container stack:
-
-heroku stack:set container -a <application-name>
-
-
-Deploy individual microservices
-
-📚 References
-
-Spring CORS Support
-
-Heroku Docker Builds
-
-Material-UI
-
-Semantic UI
-
-Redis Commands
-
-Spring Data Redis
-
-Stripe Docs
-
-Google OAuth Docs
-
-Redux & React Hooks
+## 📚 References
+1. Spring CORS Support
+2. Heroku Docker Builds
+3. Material-UI
+4. Semantic UI
+5. Redis Commands
+6. Spring Data Redis
+7. Stripe Docs
+8. Google OAuth Docs
+9. Redux & React Hooks
 
 ## ❤️ Contributions
 Contributions are welcome!
