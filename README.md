@@ -152,10 +152,11 @@ CVV: Any 3-digit number
    > 💡 Requires credit/debit card (free tier available)
 3. Configure database environment variables
 4. Set container stack:
+   
    ```bash
    heroku stack:set container -a <application-name>
    ```
-5. Deploy individual microservices
+6. Deploy individual microservices
 
 ## 📚 References
 1. Spring CORS Support
